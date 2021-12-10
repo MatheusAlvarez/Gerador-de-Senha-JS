@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Gerador de senha</title>
+        <link rel="stylesheet" href="style/gerenciador.css" />
+        <script src="script/script.js" defer></script>
+    </head>
+    <body>
+        <div class="fundo-gerador">
+            <div class="header">
+                <div class="senha">
+                    <span id="senha">Matheus Maia Alvarez</span>
+                    <button id="copiar">Copiar</button>
+                </div>
+            </div>
+            <div class="senha-body">
+                <div class="form-control">
+                    <label for="len">Tamanho da senha</label>
+                    <input id="len" value="8" type="number" min="5" max="30" />
+                </div>
+                <div class="form-control">
+                    <label for="maiusc">Letras maiúsculas</label>
+                    <input id="maiusc" type="checkbox" />
+                </div>
+                <div class="form-control">
+                    <label for="minusc">Letras minúsculas</label>
+                    <input id="minusc" type="checkbox" />
+                </div>
+                <div class="form-control">
+                    <label for="numero">Números</label>
+                    <input id="numero" type="checkbox" />
+                </div>
+                <div class="form-control">
+                    <label for="simbolos">Símbolos</label>
+                    <input id="simbolos" type="checkbox" />
+                </div>
+                <button class="generate" id="generate">
+                    Gerar senha
+                </button>
+            </div>
+        </div>
+    </body>
+</html>
