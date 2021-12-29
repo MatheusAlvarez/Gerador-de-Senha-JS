@@ -5,7 +5,7 @@
 
 https://matheusalvarez.github.io/Gerador-de-Senha-JS/
 
-Gerador de senha desenvolvido com JavaScript
+O projeto é um gerador de senha desenvolvido com JavaScript
 
 ## Layout Gerador de senhas
 ![Gerar senha](https://github.com/MatheusAlvarez/Gerador-de-Senha-JS/blob/main/_assets/SEC1.PNG)
